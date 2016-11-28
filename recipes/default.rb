@@ -87,7 +87,7 @@ eos
         # resource won't recreate the file, won't notify the test resource,
         # and the Chef run will be allowed to complete successfully despite
         # and invalid rule being present.
-        File.delete(iptable_rules)
+        # File.delete(iptable_rules)
         raise msg
       end
     end
